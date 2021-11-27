@@ -1,0 +1,1320 @@
+21:11:45.530 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:11:47.274 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:11:47.811 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:11:48.416 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 601
+1 < 200
+1 < Date: Sat, 20 Nov 2021 14:11:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 997
+1 < x-ratelimit-reset: 1631494143
+1 < vary: Origin, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: max-age=43200
+1 < pragma: no-cache
+1 < expires: -1
+1 < x-content-type-options: nosniff
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 17803
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WQJIiBgwQ5wFaEfRNxwZJ1hbjtabcq1rJ%2FCxG0MyBJxRRygM40d68OU%2FUrSeElHZrVJjxxLCFTIHFYEb2ePDXohqKmwwBj34W4msdCUL%2Byctzm2MkeL294Jx%2BuallysUnfxCx2Mcs6LDkytc1zml"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6b1245040ba44b62-SIN
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+21:11:49.316 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:13:28.679 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:13:28.687 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637417608685
+21:13:30.239 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:13:30.974 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:13:31.190 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 210
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:13:31 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:13:32.096 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:16:27.470 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:16:27.477 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637417787476
+21:16:28.927 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:16:29.671 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:16:29.743 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 69
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:16:29 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:16:30.649 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:22:08.444 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:22:08.453 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637418128451
+21:22:10.035 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:22:10.035 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:22:10.629 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:22:10.629 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:22:10.709 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:22:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:22:10.709 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:22:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:22:11.701 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:24:42.927 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:24:42.936 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637418282934
+21:24:45.035 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:24:45.035 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:24:45.035 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:24:45.821 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:24:45.821 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:24:45.821 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:24:45.887 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 64
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:24:45 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:24:45.887 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 63
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:24:45 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:24:45.894 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 73
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:24:45 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:24:47.455 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:32:57.665 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:32:57.673 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637418777671
+21:32:59.859 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:32:59.859 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:32:59.859 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:32:59.859 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:33:00.844 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:33:00.844 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:33:00.844 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:33:00.844 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:33:00.931 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 74
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:33:00 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:33:00.931 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 74
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:33:00 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:33:00.931 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 86
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:33:00 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:33:00.941 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 95
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:33:00 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:33:00.961 [pool-1-thread-4] ERROR com.intuit.karate - classpath:examples/users/users.feature:43
+And match $ == {category: "#string",group: "#string",status: "#string"}
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'category' (MAP:MAP)
+  {"message":"กรุณากรอกเฉพาะตัวเลขค่ะ"}
+  {"category":"#string","group":"#string","status":"#string"}
+
+
+classpath:examples/users/users.feature:43
+21:33:02.385 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:35:07.370 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:35:07.380 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637418907377
+21:35:09.538 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:35:09.534 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:35:09.534 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:35:09.534 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:35:10.456 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:35:10.456 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:35:10.456 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:35:10.456 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:35:10.518 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 59
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:35:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:35:10.518 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 59
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:35:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:35:10.520 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 63
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:35:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:35:10.540 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 84
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:35:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:35:12.018 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:37:07.343 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:37:07.350 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637419027348
+21:37:09.554 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:09.552 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:09.551 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:09.551 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:09.554 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:37:10.447 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:37:10.447 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:37:10.447 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"1234"}
+
+21:37:10.447 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:37:10.447 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:37:10.528 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:37:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:37:10.528 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:37:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:37:10.528 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:37:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลขให้ครบ 5 ตัวค่ะ"
+}
+21:37:10.545 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 98
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:37:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:37:10.561 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 114
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:37:10 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:37:12.286 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:38:49.353 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:38:49.362 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637419129360
+21:38:51.580 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:51.581 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:51.585 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:51.580 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:51.580 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:52.520 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:38:52.520 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:38:52.520 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"1234"}
+
+21:38:52.520 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:38:52.520 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:38:52.582 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 59
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:38:52 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:38:52.582 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 61
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:38:52 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:38:52.590 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 70
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:38:52 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลขให้ครบ 5 ตัวค่ะ"
+}
+21:38:52.598 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:38:52 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:38:52.616 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 96
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:38:52 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:38:52.631 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:38:52.639 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 20
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"123456"}
+
+21:38:52.657 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 17
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:38:52 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลข 5 ตัวค่ะ"
+}
+21:38:54.256 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:42:00.205 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:42:00.217 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637419320215
+21:42:02.384 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:02.386 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:02.385 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:02.383 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:02.383 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:03.317 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:42:03.317 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"1234"}
+
+21:42:03.317 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:42:03.317 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:42:03.317 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:42:03.378 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 59
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:42:03.378 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 59
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลขให้ครบ 5 ตัวค่ะ"
+}
+21:42:03.393 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 76
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:42:03.411 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 93
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:42:03.430 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 113
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:42:03.430 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:03.437 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 20
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"123456"}
+
+21:42:03.446 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:03.466 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 28
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลข 5 ตัวค่ะ"
+}
+21:42:03.470 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 20
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"123456"}
+
+21:42:03.489 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 19
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:03 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลข 5 ตัวค่ะ"
+}
+21:42:03.495 [pool-1-thread-3] ERROR com.intuit.karate - classpath:examples/users/users.feature:72
+And match $ == {category: "body care",group: "hand skin care",status: "Active"}
+match failed: EQUALS
+  $ | not equal | actual does not contain key - 'category' (MAP:MAP)
+  {"message":"กรุณากรอกตัวเลข 5 ตัวค่ะ"}
+  {"category":"body care","group":"hand skin care","status":"Active"}
+
+
+classpath:examples/users/users.feature:72
+21:42:05.264 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:42:26.950 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:42:26.957 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637419346956
+21:42:29.074 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:29.074 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:29.074 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:29.074 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:29.074 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:30.035 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:42:30.035 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:42:30.035 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:42:30.035 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:42:30.035 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"1234"}
+
+21:42:30.096 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 58
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:42:30.096 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 59
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:42:30.104 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 69
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลขให้ครบ 5 ตัวค่ะ"
+}
+21:42:30.114 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 79
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:42:30.123 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 88
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:42:30.146 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:30.146 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:30.152 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 20
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"123456"}
+
+21:42:30.153 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10266"}
+
+21:42:30.169 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 17
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลข 5 ตัวค่ะ"
+}
+21:42:30.179 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 25
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:42:30 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:42:31.997 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:45:20.774 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:45:20.784 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1637419520781
+21:45:22.929 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:22.929 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:22.929 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:22.930 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:22.929 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:23.850 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"plppp"}
+
+21:45:23.850 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"1234"}
+
+21:45:23.850 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10222"}
+
+21:45:23.850 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"10122"}
+
+21:45:23.850 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 14
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":""}
+
+21:45:23.919 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 66
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:23 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกเฉพาะตัวเลขค่ะ"
+}
+21:45:23.919 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 66
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:23 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลขให้ครบ 5 ตัวค่ะ"
+}
+21:45:23.927 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 77
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:23 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกข้อมูลค่ะ"
+}
+21:45:23.935 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 84
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:23 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hand skin care",
+    "status": "Active"
+}
+21:45:23.940 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 89
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:23 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "body care",
+    "group": "hair care",
+    "status": "Active"
+}
+21:45:23.970 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:23.970 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:23.977 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 20
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"123456"}
+
+21:45:23.977 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"20166"}
+
+21:45:23.989 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:23.998 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6969/barcode/v1/checkgroup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: localhost:6969
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"barcode":"20266"}
+
+21:45:24.002 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 25
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:23 GMT
+1 < Transfer-Encoding: chunked
+{
+    "message": "กรุณากรอกตัวเลข 5 ตัวค่ะ"
+}
+21:45:24.013 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 36
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:24 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "skin care",
+    "group": "facial cleansing",
+    "status": "Active"
+}
+21:45:24.028 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 30
+1 < 200
+1 < Content-Type: application/json
+1 < Connection: close
+1 < Date: Sat, 20 Nov 2021 14:45:24 GMT
+1 < Transfer-Encoding: chunked
+{
+    "category": "skin care",
+    "group": "facial care",
+    "status": "Active"
+}
+21:45:25.905 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
